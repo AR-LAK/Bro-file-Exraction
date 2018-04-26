@@ -22,8 +22,7 @@ While not preferred, this package can also be installed manually. To do this, fo
 ```
 cd <prefix>/share/bro/site
 
-git clone git@github.com:AR-LAK/Bro-file-Exraction.git file-extraction
-
+git clone https://github.com/AR-LAK/Bro-file-Exraction file-extraction
 echo "@load file-extraction" >> local.bro
 ```
 
