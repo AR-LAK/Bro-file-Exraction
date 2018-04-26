@@ -9,10 +9,10 @@ As a secondary goal, this script performs additional commonly requested file ext
 This package can be installed through the [bro package manager](http://bro-package-manager.readthedocs.io) by utilizing the following commands:
 
 ```sh
-bro-pkg install bro/hosom/file-extraction
+bro-pkg install AR-LAK/Bro-file-Exraction
 
 # you must separately load the package for it to actually do anything
-bro-pkg load bro/hosom/file-extraction
+bro-pkg load AR-LAK/Bro-file-Exraction
 ```
 
 ## Installing manually
@@ -22,7 +22,7 @@ While not preferred, this package can also be installed manually. To do this, fo
 ```
 cd <prefix>/share/bro/site
 
-git clone git://github.com/hosom/file-extraction file-extraction
+git clone git@github.com:AR-LAK/Bro-file-Exraction.git file-extraction
 
 echo "@load file-extraction" >> local.bro
 ```
